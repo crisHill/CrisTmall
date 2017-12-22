@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>tttt</title>
+    <title>welcome</title>
   </head>
   <body>
-rttt
+welcome my friend
   </body>
 </html>

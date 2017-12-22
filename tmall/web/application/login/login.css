@@ -1,0 +1,19 @@
+#logo-zone{
+    padding: 5px;
+}
+
+#img-small-logo{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#img-small-logo > img {
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    float: left;
+}

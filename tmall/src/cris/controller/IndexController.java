@@ -16,10 +16,10 @@ public class IndexController {
 
     }
 
-    @RequestMapping( "/index2" )
+    @RequestMapping( "/login" )
     public String index2(HttpServletRequest request, HttpServletResponse response) throws Exception{
 
-        return "/application/index2";
+        return "/application/login/login";
 
     }
 
