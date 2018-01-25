@@ -23,4 +23,11 @@ public class IndexController {
 
     }
 
+    @RequestMapping( "/yu" )
+    public String yu(HttpServletRequest request, HttpServletResponse response) throws Exception{
+
+        return "/application/qixi/index";
+
+    }
+
 }
