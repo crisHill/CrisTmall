@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
   <head>
     <title>生涯规划</title>
@@ -19,14 +20,15 @@
   </head>
   <body>
 
-    <jsp:include page="application/common/header.jsp"></jsp:include>
+    <jsp:include page="application/common/jsp/header.jsp"></jsp:include>
     <div class="container">
     </div>
 
   </body>
   <script>
-    $(function(){
-        Header.init();
-    });
+      var contextPath = <%=request.getContextPath()%>;
+      $(function(){
+          Header.init();
+      });
   </script>
 </html>
